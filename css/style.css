@@ -1,0 +1,1074 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header.header {
+  background: url("../img/background_1.png") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+header.header .header_item {
+  position: relative;
+  z-index: 1;
+}
+header.header .header_item .navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5rem;
+}
+header.header .header_item .navbar .navbar_item_top {
+  width: 100%;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1019607843);
+}
+header.header .header_item .navbar .navbar_item_top .button-box button {
+  padding: 1.1rem 4rem;
+  background: rgba(255, 255, 255, 0.1019607843);
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  outline: none;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+header.header .header_item .navbar .navbar_item_bottom {
+  padding: 2.5rem 0;
+  width: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1019607843);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.header .header_item .navbar .navbar_item_bottom .nav .nav-link {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  transition: color 0.2s linear;
+}
+header.header .header_item .navbar .navbar_item_bottom .nav .nav-link:hover {
+  color: #D1B06B;
+}
+header.header .header_item .navbar .navbar_item_bottom .navbar_service {
+  display: flex;
+  align-items: center;
+}
+header.header .header_item .navbar .navbar_item_bottom .navbar_service .service_item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+header.header .header_item .navbar .navbar_item_bottom .navbar_service .service_item i {
+  font-size: 1rem;
+  color: #D1B06B;
+  padding: 1.3rem;
+  border: 2px solid #D1B06B;
+  border-radius: 50%;
+}
+header.header .header_item .navbar .navbar_item_bottom .navbar_service .service_item .service_letter {
+  padding: 0 0 0 0.75rem;
+}
+header.header .header_item .navbar .navbar_item_bottom .navbar_service .service_item .service_letter h6 {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  color: #D1B06B;
+}
+header.header .header_item .navbar .navbar_item_bottom .navbar_service .service_item .service_letter span {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+header.header .law_main {
+  background: url("../img/background_2.png") no-repeat top 20px right;
+  background-size: 500px;
+}
+header.header .law_main .law_main_item {
+  padding: 4.5rem 2.5rem;
+}
+header.header .law_main h1 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  margin: 1rem 0 1.2rem 0;
+}
+header.header .law_main p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  color: #D1B06B;
+  margin-bottom: 1.7rem;
+}
+header.header .law_main button {
+  padding: 1.2rem 4rem;
+  outline: none;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+  background: #D1B06B;
+  border: none;
+}
+header.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(31, 39, 50, 0.8117647059);
+  width: 100%;
+  height: 100%;
+}
+
+.law_compay {
+  padding: 8.5rem 2.5rem 6.5rem;
+  background: #161D27;
+  display: flex;
+  align-items: end;
+}
+.law_compay .company_img {
+  margin-right: 2.3rem;
+}
+.law_compay .company_img_item:nth-child(1) img {
+  margin-bottom: 2rem;
+}
+.law_compay .company_img_item img {
+  width: 100%;
+}
+.law_compay .company_letter h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 2.2rem;
+}
+.law_compay .company_letter .company_letter_img {
+  margin-bottom: 2.6rem;
+}
+.law_compay .company_letter p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.law_compay .company_letter .company_main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.2rem;
+}
+.law_compay .company_letter .company_main img {
+  width: 90px;
+  margin-right: 1.1rem;
+}
+.law_compay .company_letter .company_main h5 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+}
+.law_compay .company_letter .company_bottom_special {
+  display: flex;
+  align-items: center;
+}
+.law_compay .company_letter .company_bottom {
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  background: #3B434E;
+}
+.law_compay .company_letter .company_bottom:nth-child(2) {
+  background: #D1B06B;
+  margin-left: 2rem;
+}
+.law_compay .company_letter .company_bottom:nth-child(2) .bottom_item {
+  padding: 0.6rem 1rem;
+  background: #161D27;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.9rem;
+  border-radius: 5px;
+}
+.law_compay .company_letter .company_bottom .bottom_img img {
+  width: 100%;
+}
+.law_compay .company_letter .company_bottom .bottom-letter {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+.law_compay .company_letter .company_bottom .bottom-letter span {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.department {
+  background: #161D27;
+  padding: 7.5rem 0 6.5rem 0;
+}
+.department .deparment_letter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem 2rem 3rem;
+}
+.department .deparment_letter h3 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0.7rem;
+}
+.department .deparment_letter p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+}
+.department .deparment_main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.department .deparment_main .branch_main {
+  padding: 3rem 3.2rem;
+  background: #1F2732;
+}
+.department .deparment_main .branch_main h5 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 0.5rem;
+}
+.department .deparment_main .branch_main p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid #4E555F;
+}
+.department .deparment_main .branch_main .branch_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 0;
+}
+.department .deparment_main .branch_main .branch_bottom .branch_img img {
+  width: 1005;
+}
+.department .deparment_main .branch_main .branch_bottom button {
+  padding: 0.8rem 2.6rem;
+  outline: none;
+  border: none;
+  font-family: "Outfit";
+  font-size: 20px;
+  font-weight: 400;
+  background: #161D27;
+  color: #fff;
+}
+
+.fight_main {
+  padding: 2.5rem;
+}
+.fight_main .fight_letter {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.fight_main .fight_letter h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0.7rem;
+  color: #000;
+}
+.fight_main .fight_letter p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-style: 20px;
+  color: #909090;
+  margin-top: 2.5rem;
+}
+.fight_main .fight-part_main {
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 2rem;
+}
+.fight_main .fight-part_main .fight_part {
+  display: flex;
+  align-items: center;
+  padding: 1.7rem;
+  background: #FBFBFB;
+}
+.fight_main .fight-part_main .fight_part .fight_left {
+  padding: 1.7rem 2.2rem;
+  border: 2px solid #D1B06B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1.1rem;
+}
+.fight_main .fight-part_main .fight_part .fight_left span {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  color: #000;
+}
+.fight_main .fight-part_main .fight_part .fight_space h5 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+.fight_main .fight-part_main .fight_part .fight_space p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  color: #909090;
+  margin: 0;
+}
+.fight_main .fight-part_main .fight_end {
+  background: url("../img/fight_4.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.2rem 3rem;
+}
+.fight_main .fight-part_main .fight_end span {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 0.7rem;
+}
+.fight_main .fight-part_main .fight_end p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.partner_main {
+  padding: 5rem 1.3rem 7.5rem;
+}
+.partner_main .partner_letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partner_main .partner_letter h3 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 50px;
+  margin: 0 2.5rem;
+  color: #000;
+}
+.partner_main .partner_img_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 3.7rem 0;
+}
+
+.information_main {
+  background: url("../img/information_back.png") no-repeat center center;
+  background-size: cover;
+  padding: 8.5rem 2.5rem;
+}
+.information_main .information_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 3.5rem;
+  background: rgba(31, 39, 50, 0.8117647059);
+}
+.information_main .information_item .information_nav {
+  margin-bottom: 3.2rem;
+}
+.information_main .information_item .information_nav h3 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0.6rem;
+}
+.information_main .information_item .section_item:not(:nth-child(4)) {
+  margin-bottom: 2.2rem;
+}
+.information_main .information_item .section_item h6 {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  color: #D1B06B;
+  margin-bottom: 0.8rem;
+}
+.information_main .information_item .section_item p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+}
+.information_main .information_item .information_img {
+  margin: 0 1.5rem;
+}
+.information_main .information_item .information_img img {
+  height: 860px;
+}
+.information_main .information_item .information_section_r p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 2.5rem;
+}
+.information_main .information_item .information_section_r .percentage:not(:nth-child(4)) {
+  margin-bottom: 2.8rem;
+}
+.information_main .information_item .information_section_r .percentage:nth-child(4) {
+  margin-bottom: 50px;
+}
+.information_main .information_item .information_section_r .percentage .percentage_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+.information_main .information_item .information_section_r .percentage .percentage_item p {
+  margin: 0;
+}
+.information_main .information_item .information_section_r .percentage .percentage_item span {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+}
+.information_main .information_item .information_section_r .percentage .p_item {
+  width: 100%;
+  height: 5px;
+  display: block;
+}
+.information_main .information_item .information_section_r .percentage .p_1 {
+  background: linear-gradient(to right, #D1B06B 75%, #fff 25%);
+}
+.information_main .information_item .information_section_r .percentage .p_2 {
+  background: linear-gradient(to right, #D1B06B 80%, #fff 20%);
+}
+.information_main .information_item .information_section_r .percentage .p_4 {
+  background: linear-gradient(to right, #D1B06B 90%, #fff 10%);
+}
+.information_main .information_item .information_button button {
+  padding: 1.2rem 4rem;
+  outline: none;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+  background: #D1B06B;
+  border: none;
+}
+
+.lawyers {
+  background: #161D27;
+  padding: 7.5rem 2.5rem 8.5rem;
+}
+.lawyers .lawyers_letter {
+  text-align: center;
+  margin-bottom: 3.7rem;
+}
+.lawyers .lawyers_letter h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0.6rem;
+}
+.lawyers .lawyers_part {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.3rem;
+}
+.lawyers .lawyers_part .lawyers_item {
+  padding: 2.5rem 0.3rem;
+}
+.lawyers .lawyers_part .lawyers_item .law_person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lawyers .lawyers_part .lawyers_item .law_person .law_letter h5 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+}
+.lawyers .lawyers_part .lawyers_item .law_person .law_letter p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  color: #D7D7D7;
+}
+.lawyers .lawyers_part .lawyers_item .law_main {
+  background: #2E3947;
+}
+.lawyers .lawyers_part .lawyers_item .law_main:nth-child(1),
+.lawyers .lawyers_part .lawyers_item .law_main :nth-child(3) {
+  padding: 3.1rem 2.8rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0 0 0 2.5rem;
+}
+.lawyers .lawyers_part .lawyers_item .law_main:nth-child(2),
+.lawyers .lawyers_part .lawyers_item .law_main :nth-child(4) {
+  padding: 4.7rem 2.8rem;
+  margin-top: 1.2rem;
+  border-radius: 40px 0 0 0;
+}
+.lawyers .lawyers_part .lawyers_item .law_main .l_item_img {
+  margin-bottom: 2rem;
+}
+.lawyers .lawyers_part .lawyers_item .law_main p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  color: #D7D7D7;
+  margin: 0;
+}
+
+.detectives {
+  padding: 7.2rem 0 7.5rem 0;
+}
+.detectives .detectives_nav {
+  margin-bottom: 4.3rem;
+  text-align: center;
+}
+.detectives .detectives_nav h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  color: #000;
+  margin-bottom: 0.6rem;
+}
+.detectives .detectives_main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.detectives .detectives_main .main_law .det_ves-letter {
+  text-align: center;
+}
+.detectives .detectives_main .main_law .det_ves-letter h4 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  color: #000;
+  margin: 0;
+}
+.detectives .detectives_main .main_law .det_ves-letter p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  color: #D1B06B;
+}
+.detectives .detectives_main .main_law:hover .det_ves-img ul {
+  transform: translateY(30%);
+}
+.detectives .detectives_main .det_ves-img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.detectives .detectives_main .det_ves-img img {
+  width: 100%;
+}
+.detectives .detectives_main .det_ves-img ul {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  position: absolute;
+  width: 55%;
+  bottom: 0;
+  transform: translateY(130%);
+  transition: all 0.3s ease-in-out;
+}
+.detectives .detectives_main .det_ves-img ul li:not(:nth-last-child(1)) {
+  margin-right: 1.2rem;
+}
+.detectives .detectives_main .det_ves-img ul li i {
+  padding: 0;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.serve_team {
+  padding: 8.5rem 2.5rem;
+  background: #161D27;
+}
+.serve_team .team_item {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.serve_team .team_item .team_main .team_letter h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0.5rem;
+}
+.serve_team .team_item .team_main .team_letter p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin: 2.6rem 0 2.3rem 0;
+}
+.serve_team .team_item .team_main button {
+  padding: 1.2rem 4rem;
+  outline: none;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+  background: #D1B06B;
+  border: none;
+}
+.serve_team .team_item .team_main-2 {
+  padding: 2.5rem;
+  background: #fff;
+}
+.serve_team .team_item .team_main-2 .t_main_b {
+  padding: 3.5rem 5rem 3.5rem 3.2rem;
+  border: 15px solid #D7D7D7;
+}
+.serve_team .team_item .team_main-2 .t_main_b h3 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 42px;
+  margin-bottom: 0.7rem;
+  color: #000;
+}
+.serve_team .team_item .team_main-2 .t_main_b p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  color: #909090;
+  margin-bottom: 2rem;
+}
+.serve_team .team_item .team_main-2 .t_main_b .team_call {
+  display: flex;
+  align-items: center;
+}
+.serve_team .team_item .team_main-2 .t_main_b .team_call .team_c-img {
+  padding: 1.4rem;
+  background: #D1B06B;
+  margin-right: 1rem;
+}
+.serve_team .team_item .team_main-2 .t_main_b .team_call .team_c-img i {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.serve_team .team_item .team_main-2 .t_main_b .team_call .team_c-spell p {
+  color: #000;
+  font-size: 18px;
+  margin: 0;
+}
+.serve_team .team_item .team_main-2 .t_main_b .team_call .team_c-spell span {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  color: #000;
+  font-size: 30px;
+}
+
+.address {
+  background: url("../img/address_1.png") no-repeat center center;
+  background-size: cover;
+  padding: 8.7rem 2.5rem;
+}
+.address .address_main {
+  padding: 5.6rem 6.2rem;
+  background: #161D27;
+}
+.address .address_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.address .address_item .address_input {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 0;
+}
+.address .address_item .address_input div {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.address .address_item .address_input div input {
+  width: 100%;
+  padding: 0 0 1.5rem 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #3B434E;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.address .address_item .address_input div input:nth-child(1) {
+  margin-right: 2rem;
+}
+.address .address_item .address_input div input::placeholder {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 25px;
+}
+.address .address_item .message_item {
+  width: 100%;
+}
+.address .address_item .message_item input {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0 0 6.8rem 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #3B434E;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.address .address_item .message_item input::placeholder {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 25px;
+}
+.address .address_item button {
+  padding: 1.2rem 4rem;
+  outline: none;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+  background: #D1B06B;
+  border: none;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  color: #000;
+  margin-top: 3rem;
+}
+
+.recent {
+  padding: 8rem 2.5rem 0;
+  background: #161D27;
+}
+.recent .recent_nav {
+  text-align: center;
+  margin-bottom: 4.3rem;
+}
+.recent .recent_nav h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 0.6rem;
+}
+.recent .recent_info {
+  display: flex;
+  align-items: center;
+  padding-bottom: 6.2rem;
+  border-bottom: 1px solid #3B434E;
+}
+.recent .recent_info .rec_img-m {
+  margin-right: 2rem;
+}
+.recent .recent_info .rec_img-m img {
+  width: 100%;
+}
+.recent .recent_info .recent_letter > p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  color: #D1B06B;
+  font-size: 20px;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #3B434E;
+  margin-bottom: 1rem;
+}
+.recent .recent_info .recent_letter > p:nth-last-child(2) {
+  border: none;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+}
+.recent .recent_info .recent_letter h2 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 1.3rem;
+}
+.recent .recent_info .recent_letter a {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  color: #D1B06B;
+  text-decoration: none;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #D1B06B;
+}
+
+.part_law {
+  background: #161D27;
+  padding: 6.2rem 0 2.5rem;
+}
+.part_law .part_item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.part_law .part_item .part_l-item {
+  margin-bottom: 6.2rem;
+}
+.part_law .part_item .part-letter span {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  color: #D1B06B;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #3B434E;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.part_law .part_item .part-letter h4 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  margin: 2.5rem 0 1.3rem;
+}
+.part_law .part_item .part-letter p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 1.2rem;
+}
+.part_law .part_item .part-letter a {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  color: #D1B06B;
+  text-decoration: none;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #D1B06B;
+}
+.part_law .part_item img {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.footer_top img {
+  width: 100%;
+}
+
+.footer {
+  padding: 8.1rem 2.5rem 0;
+  background: #161D27;
+}
+.footer .footer_item .footer_img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5.9rem;
+}
+.footer .footer_item .footer_img .img_item-f img {
+  width: 100%;
+}
+.footer .footer_item .footer_letter .footer_nav {
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4.6rem;
+  border-bottom: 1px solid #3B434E;
+}
+.footer .footer_item .letter_item-f h4 {
+  font-family: "Cormorant Garamond";
+  font-size: 65px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  padding: 1.2rem 0;
+  border-top: 1px solid #3B434E;
+  border-bottom: 1px solid #3B434E;
+}
+.footer .footer_item .letter_item-f .f_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footer_item .letter_item-f .f_space {
+  margin-top: 2rem;
+}
+.footer .footer_item .letter_item-f .f_space p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 1.2rem;
+}
+.footer .footer_item .f_letter {
+  padding: 2rem 0 0 0;
+}
+.footer .footer_item .f_letter .f_top {
+  margin-bottom: 4.6rem;
+}
+.footer .footer_item .f_letter .f_top p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+}
+.footer .footer_item .f_letter .f_bottom h6 {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 1.2rem;
+}
+.footer .footer_b {
+  padding: 1.7rem 0 1.7rem;
+  border-bottom: 1px solid #3B434E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footer_b p {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+}
+.footer .footer_b p span {
+  color: #D1B06B;
+}
+.footer .footer_b .footer_h {
+  display: flex;
+  align-items: center;
+}
+.footer .footer_b .footer_h h5 {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
+  color: #D1B06B;
+  margin: 0;
+}
+.footer .footer_b .footer_h ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.footer .footer_b .footer_h ul li a {
+  color: #fff;
+  margin: 0 0 0 1.3rem;
+}
+.footer .footer_m {
+  padding: 3.4rem 0;
+}/*# sourceMappingURL=style.css.map */
